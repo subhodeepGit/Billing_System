@@ -1,0 +1,139 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2022-04-12 11:21:11.094622",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "customer_number",
+  "customer_name",
+  "coupon_code",
+  "loyalty_program",
+  "column_break",
+  "employee_id",
+  "employee_name",
+  "bill_date",
+  "section_break",
+  "items_list",
+  "section_break_12",
+  "discount",
+  "data_15",
+  "grand_total"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Bill Number",
+   "options": "BillNo/.YYYY./",
+   "read_only": 1
+  },
+  {
+   "fieldname": "customer_number",
+   "fieldtype": "Link",
+   "label": "Customer Mobile Number",
+   "length": 10,
+   "non_negative": 1,
+   "options": "Phone Number"
+  },
+  {
+   "fetch_from": "customer_number.name1",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "employee_id",
+   "fieldtype": "Link",
+   "label": "Employee ID",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "employee_id.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "default": "Today",
+   "fieldname": "bill_date",
+   "fieldtype": "Date",
+   "label": "Bill Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "coupon_code",
+   "fieldtype": "Link",
+   "label": "Coupon Code",
+   "options": "Coupon Code"
+  },
+  {
+   "fieldname": "items_list",
+   "fieldtype": "Table",
+   "label": "Items List",
+   "options": "Item List"
+  },
+  {
+   "fieldname": "loyalty_program",
+   "fieldtype": "Link",
+   "label": "Loyalty program",
+   "options": "Loyalty Program"
+  },
+  {
+   "fieldname": "section_break",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "discount",
+   "fieldtype": "Int",
+   "label": "Total Discount"
+  },
+  {
+   "fieldname": "data_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "grand_total",
+   "fieldtype": "Int",
+   "label": "Grand Total"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-13 15:25:08.842887",
+ "modified_by": "Administrator",
+ "module": "Billing System",
+ "name": "Sales Bill",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

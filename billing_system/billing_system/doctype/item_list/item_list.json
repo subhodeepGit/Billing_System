@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-12 12:01:48.843170",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_code",
+  "item_name",
+  "item_price",
+  "quantity",
+  "discounts",
+  "gst",
+  "total_price"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "label": "Item Code",
+   "options": "Item"
+  },
+  {
+   "fetch_from": "item_code.item_name",
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "label": "Item Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "item_code.standard_rate",
+   "fieldname": "item_price",
+   "fieldtype": "Currency",
+   "label": "Item Price",
+   "read_only": 1
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "label": "Quantity",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "discounts",
+   "fieldtype": "Int",
+   "label": "Discounts"
+  },
+  {
+   "fieldname": "gst",
+   "fieldtype": "Int",
+   "label": "GST"
+  },
+  {
+   "fieldname": "total_price",
+   "fieldtype": "Int",
+   "label": "Total Price"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-04-14 11:44:44.473750",
+ "modified_by": "Administrator",
+ "module": "Billing System",
+ "name": "Item List",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
