@@ -173,7 +173,7 @@ user_data_fields = [
 # 	"billing_system.auth.validate"
 # ]
 
-fixtures = [
-	{"dt": "Warehouse"},
-	{"dt": "Account"},
-]
+# fixtures = [
+# 	{"dt": "Warehouse"},
+# 	{"dt": "Account"},
+# ]
