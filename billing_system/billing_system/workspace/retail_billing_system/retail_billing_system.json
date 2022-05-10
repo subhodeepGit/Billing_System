@@ -184,9 +184,18 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Invoice",
+   "link_to": "Sales Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2022-04-22 15:39:21.241537",
+ "modified": "2022-05-06 16:21:34.130565",
  "modified_by": "Administrator",
  "module": "Billing System",
  "name": "Retail-Billing System",
