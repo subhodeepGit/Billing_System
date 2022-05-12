@@ -1,0 +1,31 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2022-05-12 11:15:33.338079",
+ "date_changed": "expiry_date",
+ "days_in_advance": 7,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Loyalty Point Entry",
+ "enabled": 1,
+ "event": "Days Before",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Hello,\nThank you for shopping with us. This email is to remind you that you have unused Loyalty points in your account associated with us.\nSo please visit us before it gets expired.\nThank You.",
+ "modified": "2022-05-12 11:16:48.432609",
+ "modified_by": "Administrator",
+ "module": "Billing System",
+ "name": "Remainder for using Loyalty Point",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Customer"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "sender": "Notification",
+ "sender_email": "education4dmin@yandex.com",
+ "subject": "Remainder for using Loyalty Point"
+}

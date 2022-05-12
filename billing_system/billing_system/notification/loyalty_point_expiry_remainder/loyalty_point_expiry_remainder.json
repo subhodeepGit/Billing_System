@@ -1,0 +1,30 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2022-05-11 10:40:02.749278",
+ "date_changed": "expiry_date",
+ "days_in_advance": 10,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Loyalty Point Entry",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Your Loyalty point is about to expire in 10 days.",
+ "modified": "2022-05-11 17:32:54.149101",
+ "modified_by": "Administrator",
+ "module": "Billing System",
+ "name": "Loyalty point Expiry remainder",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_role": "Customer"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "sender": "Notification",
+ "sender_email": "education4dmin@yandex.com",
+ "subject": "Your Loyalty point is about to expire"
+}

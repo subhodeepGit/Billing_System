@@ -89,32 +89,30 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-#	}
-# }
+doc_events = {
+	"Loyalty Point Entry": {
+		"before_save": "billing_system.billing_system.doctype.loyalty_point_entry.before_save"
+	}
+}
 
 # Scheduled Tasks
 # ---------------
 
 # scheduler_events = {
-# 	"all": [
-# 		"billing_system.tasks.all"
-# 	],
-# 	"daily": [
-# 		"billing_system.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"billing_system.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"billing_system.tasks.weekly"
-# 	]
+# 	# "all": [
+# 	# 	"billing_system.tasks.all"
+# 	# ],
+# 	# "daily": [
+# 	# 	"billing_system.tasks.daily"
+# 	# ],
+# 	# "hourly": [
+# 	# 	"billing_system.tasks.hourly"
+# 	# ],
+# 	# "weekly": [
+# 	# 	"billing_system.tasks.weekly"
+# 	# ]
 # 	"monthly": [
-# 		"billing_system.tasks.monthly"
+# 		"billing_system.scheduled_tasks.loyalty_program_expiry"
 # 	]
 # }
 

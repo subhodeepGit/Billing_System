@@ -1,0 +1,29 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2022-05-11 17:47:26.991957",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Loyalty Point Entry",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Add your message here\nzdsxf\nzsdfsdz",
+ "modified": "2022-05-11 17:47:26.991957",
+ "modified_by": "Administrator",
+ "module": "Billing System",
+ "name": "test",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "sender": "Notification",
+ "sender_email": "education4dmin@yandex.com",
+ "subject": "test"
+}

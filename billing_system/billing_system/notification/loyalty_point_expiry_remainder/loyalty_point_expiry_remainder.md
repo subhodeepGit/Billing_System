@@ -1,0 +1,1 @@
+Your Loyalty point is about to expire in 10 days.
