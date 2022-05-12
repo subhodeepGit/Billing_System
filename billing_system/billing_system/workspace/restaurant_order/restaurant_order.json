@@ -1,0 +1,61 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "creation": "2022-05-12 17:26:05.214388",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Restaurant Order",
+ "links": [],
+ "modified": "2022-05-12 17:34:34.722261",
+ "modified_by": "Administrator",
+ "module": "Billing System",
+ "name": "Restaurant Order",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Restaurant",
+   "link_to": "Restaurant",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Restaurant Menu",
+   "link_to": "Restaurant Menu",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Restaurant Order Entry",
+   "link_to": "Restaurant Order Entry",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Restaurant Reservation",
+   "link_to": "Restaurant Reservation",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Restaurant Table",
+   "link_to": "Restaurant Table",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Sales Invoice",
+   "link_to": "Sales Invoice",
+   "type": "DocType"
+  }
+ ]
+}
