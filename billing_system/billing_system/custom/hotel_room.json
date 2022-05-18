@@ -1,0 +1,32 @@
+{
+ "custom_fields": [],
+ "custom_perms": [],
+ "doctype": "Hotel Room",
+ "property_setters": [
+  {
+   "_assign": null,
+   "_comments": null,
+   "_liked_by": null,
+   "_user_tags": null,
+   "creation": "2022-05-18 14:56:21.012036",
+   "default_value": null,
+   "doc_type": "Hotel Room",
+   "docstatus": 0,
+   "doctype_or_field": "DocField",
+   "field_name": "capacity",
+   "idx": 0,
+   "modified": "2022-05-18 14:56:21.012036",
+   "modified_by": "Administrator",
+   "name": "Hotel Room-capacity-fetch_from",
+   "owner": "Administrator",
+   "parent": null,
+   "parentfield": null,
+   "parenttype": null,
+   "property": "fetch_from",
+   "property_type": "Small Text",
+   "row_name": null,
+   "value": "hotel_room_type.capacity"
+  }
+ ],
+ "sync_on_migrate": 1
+}

@@ -1,0 +1,61 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "creation": "2022-05-18 14:47:35.430432",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Hotel Management",
+ "links": [],
+ "modified": "2022-05-18 15:06:23.077676",
+ "modified_by": "Administrator",
+ "module": "Billing System",
+ "name": "Hotel Management",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Hotel Room",
+   "link_to": "Hotel Room",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Hotel Room Package",
+   "link_to": "Hotel Room Package",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Hotel Room Pricing",
+   "link_to": "Hotel Room Pricing",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Hotel Room Reservation",
+   "link_to": "Hotel Room Reservation",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Hotel Room Type",
+   "link_to": "Hotel Room Type",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Hotel Settings",
+   "link_to": "Hotel Settings",
+   "type": "DocType"
+  }
+ ]
+}
