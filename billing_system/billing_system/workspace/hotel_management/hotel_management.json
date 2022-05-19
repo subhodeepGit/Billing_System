@@ -13,7 +13,7 @@
  "is_standard": 1,
  "label": "Hotel Management",
  "links": [],
- "modified": "2022-05-18 15:06:23.077676",
+ "modified": "2022-05-19 09:44:50.616156",
  "modified_by": "Administrator",
  "module": "Billing System",
  "name": "Hotel Management",
@@ -21,6 +21,12 @@
  "pin_to_bottom": 0,
  "pin_to_top": 0,
  "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Hotel",
+   "link_to": "Hotel",
+   "type": "DocType"
+  },
   {
    "doc_view": "",
    "label": "Hotel Room",
