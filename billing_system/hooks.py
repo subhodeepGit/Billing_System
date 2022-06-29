@@ -31,7 +31,13 @@ app_license = "MIT"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {
+	"Hotel Room Package" : "public/js/hotel_room_package.js",
+	"Hotel Room Pricing" : "public/js/hotel_room_pricing.js",
+	"Hotel Room Reservation" : "public/js/hotel_room_reservation.js",
+	"Hotel Room Type" : "public/js/hotel_room_type.js",
+	"Restaurant Menu" : "public/js/restaurant_menu.js",
+	}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
