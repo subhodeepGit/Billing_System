@@ -1,11 +1,6 @@
 {
  "category": "Modules",
- "charts": [
-  {
-   "chart_name": "Outgoing Bills (Sales Invoice)",
-   "label": "Sales Details"
-  }
- ],
+ "charts": [],
  "creation": "2022-04-22 15:30:35.137429",
  "developer_mode_only": 0,
  "disable_user_customization": 0,
@@ -195,7 +190,7 @@
    "type": "Link"
   }
  ],
- "modified": "2022-05-06 16:21:34.130565",
+ "modified": "2022-07-27 12:04:24.475356",
  "modified_by": "Administrator",
  "module": "Billing System",
  "name": "Retail-Billing System",
